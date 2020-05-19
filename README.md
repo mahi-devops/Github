@@ -42,7 +42,7 @@ master is nothing but branch.
 ```
 To deal with less conflicts, always we have to work on latest copy.
 ```
-# *Difference between git pull and git push
+# *Difference between git pull and git push*
 ```
 git pull does fetch and merge, means it merges to local repository.
 git fetch only fetched and it won't merge.
