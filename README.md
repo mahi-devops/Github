@@ -21,7 +21,6 @@ The best practice before pushing the files to central repository is do git pull 
   - git push
 ```
 # git add
-
 ```
 1. To stage the files from working area to staging area.
 2. We might modify 10 files but we want to update only 5 files, so we will stage only that files and do commit.
@@ -45,5 +44,13 @@ To deal with less conflicts, always we have to work on latest copy.
 # ** Difference between git pull and git push
 ```
 git pull does fetch and merge, means it merges to local repository.
-git fetch only fetched and it won't merge. To merge it first do *git fetch* and then *git merge*
+git fetch only fetched and it won't merge. To merge it first do git fetch and then git merge
+```
+# To check the commit history
+```
+git log
+```
+# To check what changes we were added in a commit
+```
+git show COMMITID
 ```
