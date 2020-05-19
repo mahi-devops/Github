@@ -16,6 +16,6 @@ git config --global user.email "9618714521m@gmail.com"
   - git add GitLearning.txt (git add will move the files from working area to staging area)
 5. The commit command commit the files from staging area to Local repository.
   - git commit -m "some useful message"
-6. Now push the files commited to central repository using below command.
+6. Now push the files commited to central repository using below command. The best practice before pushing the files to central repository do git pull and then push.
   - git push
 ```
