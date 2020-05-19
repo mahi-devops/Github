@@ -19,6 +19,8 @@ git config --global user.email "9618714521m@gmail.com"
 6. Now push the files commited to central repository using below command. 
 The best practice before pushing the files to central repository is do git pull and then push.
   - git push
+  
+  
 ```
 # git add
 ```
