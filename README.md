@@ -87,3 +87,11 @@ In the below text Leggins is the name of branch
 8.  Now do git pull to get changes merged locally and delte the branch locally using below command.
     - git branch -d Leggings
 ```
+# Important points
+```
+1. In git branch is light weight.
+2. Why branch is light weigt in git?
+ Ans. when ever we create a new branch it points to the latest commit and it will take a new snapshot.
+3.  Origin/master is nothing but remote master.
+4.  Origin/head is nothing but remote head.
+```
