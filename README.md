@@ -95,3 +95,7 @@ In the below text Leggins is the name of branch
 3.  Origin/master is nothing but remote master.
 4.  Origin/head is nothing but remote head.
 ```
+# How do you resolve conflicts?
+```
+We use Github ui to resolve conflicts.
+```
