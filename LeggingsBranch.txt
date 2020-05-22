@@ -3,4 +3,4 @@
 4. checking for conflicts added this line locally
 4. checking for conflicts added this line from central repository.
 5. resolving conflicts using github ui added locally
- 
+5. resolving conflicts using github ui added central repository.
