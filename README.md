@@ -35,7 +35,7 @@ It picks all files from staging and commits to local repositroy.
 ```
 # origin
 ```
-Origin is the logical name mapped to remote remote repository URL.
+Origin is the logical name mapped to remote repository URL.
 git push origin master - it pushes the files to remote repository.
 master is nothing but branch.
 ```
@@ -69,8 +69,21 @@ git show COMMITID
 ```
 # Exercise: Working on new task by creating new branch then lets integrate our changes to master through pull request
 ```
+In the below text Leggins is the name of branch
 1.	Create a branch with name Leggings
     -	git branch Leggings
-2.	Push branch(Leggings) to remote.
-    -	push origin Leggings
+2.	work in Leggings branch by using below command
+    - git checkout Leggings
+3.  Do some changes to the files locally.
+4.  Run the below commands to push changes did in Leggings to remote repository(origin)
+    - git add
+    - git commit -m "some meaningfull message"
+    - git push origin Leggings
+5.  Create pull request.(we can't create pull request locally)
+6.  After pull request is created it goes for review.
+7.  If no modifications required reviewer will aprrove.
+8.  After it is approved we have merge.
+9.  Delete the branch(Leggings) in the remote.
+8.  Now do git pull to get changes merged locally and delte the branch locally using below command.
+    - git branch -d Leggings
 ```
