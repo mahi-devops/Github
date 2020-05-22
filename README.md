@@ -3,7 +3,7 @@
 git config --global user.name "Reddy Maheswar"
 git config --global user.email "9618714521m@gmail.com"
 ```
-# Note
+# Central repository and Local Repository
 ```
 1. Add our repository (Central repository) to our local machine using the below command.
   - git clone URL OF THE REPOSITORY
@@ -55,4 +55,22 @@ git log
 # To check what changes we were added in a commit
 ```
 git show COMMITID
+```
+# Git Branch
+```
+1. Every task needs to be done in a separate branch after the completion of work, changes needs to be integrated into main branch(master branch)
+2. Branch gives isolation to your commits/tasks.
+```
+# Master Branch
+```
+1. By default every repository is created with Master Branch.
+2 Realtime no one will have direct access to Master.
+3. Devops guy(may be lead) will setup this process.
+```
+# Exercise: Working on new task by creating new branch then lets integrate our changes to master through pull request
+```
+1.	Create a branch with name Leggings
+    -	git branch Leggings
+2.	Push branch(Leggings) to remote.
+    -	push origin Leggings
 ```
