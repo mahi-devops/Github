@@ -100,5 +100,19 @@ We use Github ui to resolve conflicts.
 ```
 # Git undo operations
 ```
-# Discarding changes in working area
+1. Discarding changes in working area:
+If we did some changes in a file locally and we need to discard the changes did in that file(LeggingsBranch.txt)
+git restore LeggingsBranch.txt
+2. Unstaging files
+If we did changes in 2 files locally and staged it now we want only one file to commit and unstage the file we don't want to commit.
+git add *
+git restore --staged LeggingsBranch.txt
+3. Undo Local commits
+git reset previous commit id
+The commits above this commit id will remove from local repository.
+```
+# Reset modes
+```
+1. mixed reset
+In mixed mode 
 ```
