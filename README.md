@@ -20,7 +20,6 @@ git config --global user.email "9618714521m@gmail.com"
 The best practice before pushing the files to central repository is do git pull and then push.
   - git push
   
-  
 ```
 # git add
 ```
@@ -43,7 +42,7 @@ master is nothing but branch.
 ```
 To deal with less conflicts, always we have to work on latest copy.
 ```
-# ** Difference between git pull and git push
+# ** Difference between git pull and git fetch
 ```
 git pull does fetch and merge, means it merges to local repository.
 git fetch only fetched and it won't merge. To merge it first do git fetch and then git merge
@@ -86,4 +85,34 @@ In the below text Leggins is the name of branch
 9.  Delete the branch(Leggings) in the remote.
 8.  Now do git pull to get changes merged locally and delte the branch locally using below command.
     - git branch -d Leggings
+```
+# Important points
+```
+1. In git branch is light weight.
+2. Why branch is light weigt in git?
+ Ans. when ever we create a new branch it points to the latest commit and it will take a new snapshot.
+3.  Origin/master is nothing but remote master.
+4.  Origin/head is nothing but remote head.
+```
+# How do you resolve conflicts?
+```
+We use Github ui to resolve conflicts.
+```
+# Git undo operations
+```
+1. Discarding changes in working area:
+If we did some changes in a file locally and we need to discard the changes did in that file(LeggingsBranch.txt)
+git restore LeggingsBranch.txt
+2. Unstaging files
+If we did changes in 2 files locally and staged it now we want only one file to commit and unstage the file we don't want to commit.
+git add *
+git restore --staged LeggingsBranch.txt
+3. Undo Local commits
+git reset previous commit id
+The commits above this commit id will remove from local repository.
+```
+# Reset modes
+```
+1. mixed reset
+In mixed mode 
 ```
