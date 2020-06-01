@@ -159,3 +159,12 @@ git revert COMMITID
 
 It revert’ s all the changes in this commit and it makes a new commit, so it keeps the old changes in the history.  
 ```
+# Head
+```
+Head is a pointer which always points to the latest commit in the current branch
+```
+# Cherry-pick
+```
+It picks specific branch from the different branch and applies to the current branch
+Git cherry-pick COMMITID
+```
