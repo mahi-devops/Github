@@ -153,3 +153,9 @@ All commits above the COMMITID will be removed and the changes were kept in the 
 4. git reset --soft COMMITID
 5. git add 3rd file
 ```
+# Undoing remote commit
+```
+git revert COMMITID
+
+It revert’ s all the changes in this commit and it makes a new commit, so it keeps the old changes in the history.  
+```
