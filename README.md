@@ -51,6 +51,10 @@ git fetch only fetched and it won't merge. To merge it first do git fetch and th
 ```
 git log
 ```
+# To see only commit id's with commit messages
+```
+git log --oneline
+```
 # To check what changes we were added in a commit
 ```
 git show COMMITID
@@ -59,6 +63,9 @@ git show COMMITID
 ```
 1. Every task needs to be done in a separate branch after the completion of work, changes needs to be integrated into main branch(master branch)
 2. Branch gives isolation to your commits/tasks.
+3. Whenever we create a new branch it will always points to the latest commit
+4. HEAD, master always points to the latest commit
+
 ```
 # Master Branch
 ```
@@ -113,6 +120,36 @@ The commits above this commit id will remove from local repository.
 ```
 # Reset modes
 ```
-1. mixed reset
-In mixed mode 
+i. mixed reset
+
+1.	It is the default mode.
+2.	Git reset --mixed COMMITID 
+All commits above the COMMITID will be removed and the changes were kept in working area
+3.	As it is default mode, we can use it as below
+Git reset COMMITID
+
+ii. Soft reset
+
+1.	It is the default mode.
+2.	Git reset --soft COMMITID 
+All commits above the COMMITID will be removed and the changes were kept in staging area
+
+iii. Hard reset
+
+1.	It is the default mode.
+2.	Git reset --hard COMMITID 
+All commits above the COMMITID will be removed and the changes were kept in the commit will be discarded permanently.
+```
+# Drawbacks of reset
+```
+1.	We can’t use reset if the commits are public I,e the commit is already pushed to remote.
+2.	Another drawback of reset is it’s deleting the history.
+```
+# Use case of reset
+```
+1. I updated 3 files
+2. I staged 2 files
+3. I did commit 2 files
+4. git reset --soft COMMITID
+5. git add 3rd file
 ```
