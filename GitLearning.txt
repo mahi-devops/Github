@@ -1,4 +1,10 @@
+
 1. staging changes did in working area.
 2. git commit
 3. git undo operations.
 4. Use case of reset
+1. staging changes did in working area.
+1st commit
+
+1. staging changes did in working area.
+
