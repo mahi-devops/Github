@@ -168,3 +168,15 @@ Head is a pointer which always points to the latest commit in the current branch
 It picks specific branch from the different branch and applies to the current branch
 Git cherry-pick COMMITID
 ```
+# Git merging stratiges
+```
+i. Fast Forward Merge
+
+If there are no new commits in the master branch after the branch is created then it goes with fast forward merge.
+
+ii. Recursive Merge
+
+1. If there are new commits in the master branch after the branch is created then it goes with recursive merge.
+2. In case of recursive merge a new commit i
+
+```
